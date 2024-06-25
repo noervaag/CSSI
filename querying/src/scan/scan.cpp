@@ -25,10 +25,8 @@ namespace sstss
         prunes = 0;
 	prunes2 = 0;
 
-	int i=0;
 	while (!docscore_queue.isEmpty()) {
 	    results.push_back(docscore_queue.toppop());
-	    i++;
 	}
 	
     }

@@ -6,8 +6,11 @@
 #ifndef COMMONS
 #define COMMONS
 
+#include <cstddef>
 #include <string>
 #include <vector>
+#include <array>
+#include <set>
 #include <iostream> // for overloading stream operators
 #include <cfloat> // for min and max values
 #include <numeric> // std::accumulate

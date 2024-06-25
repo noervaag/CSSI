@@ -40,6 +40,7 @@ namespace sstss
     void  RTreeIndex::query(uint32_t k, Doc const& q, double const& a, Corpus const &corp, ResultVec &results, 
 			    uint32_t &prunes, uint32_t &prunes2, uint32_t &numdist)
     {
+	(void)prunes2;
 	double lowerbound = 0;
 
         NodePriorityQueue node_queue;
@@ -82,10 +83,8 @@ namespace sstss
 	    }
 
         }
-	int i=0;
 	while (!topk_queue.isEmpty()) {
 	    results.push_back(topk_queue.toppop());
-	    i++;
 	}
     }
 	

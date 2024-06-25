@@ -199,10 +199,8 @@ namespace sstss
 	    }
 	}
 
-	int i=0;
 	while (!topk_queue.isEmpty()) {
 	    results.push_back(topk_queue.toppop());
-	    i++;
 	}
 
     }

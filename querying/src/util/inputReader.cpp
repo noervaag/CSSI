@@ -42,7 +42,7 @@ namespace sstss
 	    
 	    point.first = std::stod(xcoord);
 	    point.second = std::stod(ycoord);
-	    EmbeddingHD e;
+	    EmbeddingHD e = {};
 	    Doc d = {point, e};
 	    corpus.docvec.push_back(d);
 	    
