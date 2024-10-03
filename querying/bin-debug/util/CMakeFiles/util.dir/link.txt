@@ -1,0 +1,2 @@
+/usr/bin/ar qc libutil.a CMakeFiles/util.dir/inputReader.cpp.o CMakeFiles/util.dir/commons.cpp.o CMakeFiles/util.dir/outputwriter.cpp.o
+/usr/bin/ranlib libutil.a

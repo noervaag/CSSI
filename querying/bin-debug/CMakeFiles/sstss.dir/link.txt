@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -g -g -Og CMakeFiles/sstss.dir/main.cpp.o -o sstss  /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.74.0 util/libutil.a algorithm/libalgorithm.a scan/libscan.a csi3/libcsi3.a csia3/libcsia3.a s2r/libs2r.a rtree/librtree.a

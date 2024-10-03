@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcsia3.a CMakeFiles/csia3.dir/csia3.cpp.o
+/usr/bin/ranlib libcsia3.a

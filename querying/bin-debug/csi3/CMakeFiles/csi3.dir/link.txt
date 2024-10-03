@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcsi3.a CMakeFiles/csi3.dir/csi3.cpp.o
+/usr/bin/ranlib libcsi3.a

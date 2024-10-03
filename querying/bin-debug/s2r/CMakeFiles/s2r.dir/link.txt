@@ -1,0 +1,2 @@
+/usr/bin/ar qc libs2r.a CMakeFiles/s2r.dir/s2r.cpp.o
+/usr/bin/ranlib libs2r.a
