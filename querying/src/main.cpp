@@ -20,6 +20,8 @@
 #include "s2r/s2r.hpp"
 #include "csi3/csi3.hpp"
 #include "csia3/csia3.hpp"
+#include <faiss/IndexFlat.h>
+
 
 
 namespace po = boost::program_options;
@@ -69,6 +71,8 @@ namespace
 } // anonymous namespace
 
 int main( int argc, char** argv ) {
+
+  	faiss::IndexFlatL2 index(128);
 
     using namespace sstss;
 

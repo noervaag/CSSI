@@ -1,0 +1,6 @@
+Workloaddir	Idxdir	Alg	AlgIdx	Query	Q index	k	a	m	Lm	PreT	QueryT	TotalT	NumDocs	Prunes	Prunes2	NumDist	Error	AGGR
+../../indexing/twitter_dataset	../../indexing/twitter_indexes	scan	0	0	0	10	0.5	2	-0.1	0	21070.5	21071.1	10000	0	0	10000	0	AGGR
+../../indexing/twitter_dataset	../../indexing/twitter_indexes	rtree	1	0	0	10	0.5	2	-0.1	36900.5	14104.2	51004.9	10000	63	0	6541	0	AGGR
+../../indexing/twitter_dataset	../../indexing/twitter_indexes	s2r	2	0	0	10	0.5	2	-0.1	127997	14070.9	142069	10000	0	0	6505	0	AGGR
+../../indexing/twitter_dataset	../../indexing/twitter_indexes	csi3	5	0	0	10	0.5	2	-0.1	31432.7	18174.5	49607.6	10000	251	940	8808	0	AGGR
+../../indexing/twitter_dataset	../../indexing/twitter_indexes	csia3	8	0	0	10	0.5	2	-0.1	31129	17490.2	48619.6	10000	683	908	8407	0	AGGR

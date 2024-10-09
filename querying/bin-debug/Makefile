@@ -220,6 +220,32 @@ csia3/fast:
 	$(MAKE) $(MAKESILENT) -f csia3/CMakeFiles/csia3.dir/build.make csia3/CMakeFiles/csia3.dir/build
 .PHONY : csia3/fast
 
+#=============================================================================
+# Target rules for targets named baseline
+
+# Build rule for target.
+baseline: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 baseline
+.PHONY : baseline
+
+# fast build rule for target.
+baseline/fast:
+	$(MAKE) $(MAKESILENT) -f baseline/CMakeFiles/baseline.dir/build.make baseline/CMakeFiles/baseline.dir/build
+.PHONY : baseline/fast
+
+#=============================================================================
+# Target rules for targets named faisshnsw
+
+# Build rule for target.
+faisshnsw: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 faisshnsw
+.PHONY : faisshnsw
+
+# fast build rule for target.
+faisshnsw/fast:
+	$(MAKE) $(MAKESILENT) -f faisshnsw/CMakeFiles/faisshnsw.dir/build.make faisshnsw/CMakeFiles/faisshnsw.dir/build
+.PHONY : faisshnsw/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -253,8 +279,10 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... algorithm"
+	@echo "... baseline"
 	@echo "... csi3"
 	@echo "... csia3"
+	@echo "... faisshnsw"
 	@echo "... rtree"
 	@echo "... s2r"
 	@echo "... scan"

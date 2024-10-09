@@ -51,6 +51,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/silviucm/MASTER/CSSI/querying/bin-debug/s2r/cmake_install.cmake")
   include("/home/silviucm/MASTER/CSSI/querying/bin-debug/csi3/cmake_install.cmake")
   include("/home/silviucm/MASTER/CSSI/querying/bin-debug/csia3/cmake_install.cmake")
+  include("/home/silviucm/MASTER/CSSI/querying/bin-debug/baseline/cmake_install.cmake")
+  include("/home/silviucm/MASTER/CSSI/querying/bin-debug/faisshnsw/cmake_install.cmake")
 
 endif()
 

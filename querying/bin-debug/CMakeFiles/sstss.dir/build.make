@@ -100,6 +100,11 @@ sstss: csi3/libcsi3.a
 sstss: csia3/libcsia3.a
 sstss: s2r/libs2r.a
 sstss: rtree/librtree.a
+sstss: baseline/libbaseline.a
+sstss: faisshnsw/libfaisshnsw.a
+sstss: /usr/local/lib/libfaiss.so
+sstss: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so
+sstss: /usr/lib/x86_64-linux-gnu/libpthread.a
 sstss: CMakeFiles/sstss.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/silviucm/MASTER/CSSI/querying/bin-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sstss"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sstss.dir/link.txt --verbose=$(VERBOSE)

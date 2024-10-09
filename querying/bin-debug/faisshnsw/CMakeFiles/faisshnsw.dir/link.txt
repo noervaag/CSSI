@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfaisshnsw.a CMakeFiles/faisshnsw.dir/faisshnsw.cpp.o
+/usr/bin/ranlib libfaisshnsw.a

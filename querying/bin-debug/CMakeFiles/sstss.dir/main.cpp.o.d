@@ -1047,4 +1047,9 @@ CMakeFiles/sstss.dir/main.cpp.o: \
  /home/silviucm/MASTER/CSSI/querying/src/csi3/csi3.hpp \
  /home/silviucm/MASTER/CSSI/querying/src/csi3/../algorithm/algorithm.hpp \
  /home/silviucm/MASTER/CSSI/querying/src/csia3/csia3.hpp \
- /home/silviucm/MASTER/CSSI/querying/src/csia3/../algorithm/algorithm.hpp
+ /home/silviucm/MASTER/CSSI/querying/src/csia3/../algorithm/algorithm.hpp \
+ /usr/local/include/faiss/IndexFlat.h \
+ /usr/local/include/faiss/IndexFlatCodes.h \
+ /usr/local/include/faiss/Index.h /usr/local/include/faiss/MetricType.h \
+ /usr/local/include/faiss/impl/platform_macros.h \
+ /usr/local/include/faiss/impl/DistanceComputer.h

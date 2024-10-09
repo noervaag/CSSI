@@ -22,3 +22,9 @@
 /home/silviucm/MASTER/CSSI/querying/bin-debug/csia3/CMakeFiles/csia3.dir
 /home/silviucm/MASTER/CSSI/querying/bin-debug/csia3/CMakeFiles/edit_cache.dir
 /home/silviucm/MASTER/CSSI/querying/bin-debug/csia3/CMakeFiles/rebuild_cache.dir
+/home/silviucm/MASTER/CSSI/querying/bin-debug/baseline/CMakeFiles/baseline.dir
+/home/silviucm/MASTER/CSSI/querying/bin-debug/baseline/CMakeFiles/edit_cache.dir
+/home/silviucm/MASTER/CSSI/querying/bin-debug/baseline/CMakeFiles/rebuild_cache.dir
+/home/silviucm/MASTER/CSSI/querying/bin-debug/faisshnsw/CMakeFiles/faisshnsw.dir
+/home/silviucm/MASTER/CSSI/querying/bin-debug/faisshnsw/CMakeFiles/edit_cache.dir
+/home/silviucm/MASTER/CSSI/querying/bin-debug/faisshnsw/CMakeFiles/rebuild_cache.dir

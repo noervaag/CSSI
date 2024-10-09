@@ -6,5 +6,5 @@ CXX_DEFINES = -DBOOST_ALL_NO_LIB -DBOOST_PROGRAM_OPTIONS_DYN_LINK
 
 CXX_INCLUDES = 
 
-CXX_FLAGS =  -Wall -Wextra -g -g -Og -std=gnu++17
+CXX_FLAGS =  -Wall -Wextra -g -fopenmp -g -Og -std=gnu++17 -fopenmp
 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbaseline.a CMakeFiles/baseline.dir/baseline.cpp.o
+/usr/bin/ranlib libbaseline.a
