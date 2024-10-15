@@ -16,6 +16,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/silviucm/MASTER/CSSI/querying/src/csi3/CMakeLists.txt"
   "/home/silviucm/MASTER/CSSI/querying/src/csia3/CMakeLists.txt"
   "/home/silviucm/MASTER/CSSI/querying/src/faisshnsw/CMakeLists.txt"
+  "/home/silviucm/MASTER/CSSI/querying/src/iterator/CMakeLists.txt"
   "/home/silviucm/MASTER/CSSI/querying/src/rtree/CMakeLists.txt"
   "/home/silviucm/MASTER/CSSI/querying/src/s2r/CMakeLists.txt"
   "/home/silviucm/MASTER/CSSI/querying/src/scan/CMakeLists.txt"
@@ -72,6 +73,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "csia3/CMakeFiles/CMakeDirectoryInformation.cmake"
   "baseline/CMakeFiles/CMakeDirectoryInformation.cmake"
   "faisshnsw/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "iterator/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -86,4 +88,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "csia3/CMakeFiles/csia3.dir/DependInfo.cmake"
   "baseline/CMakeFiles/baseline.dir/DependInfo.cmake"
   "faisshnsw/CMakeFiles/faisshnsw.dir/DependInfo.cmake"
+  "iterator/CMakeFiles/iterator.dir/DependInfo.cmake"
   )

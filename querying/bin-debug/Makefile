@@ -246,6 +246,19 @@ faisshnsw/fast:
 	$(MAKE) $(MAKESILENT) -f faisshnsw/CMakeFiles/faisshnsw.dir/build.make faisshnsw/CMakeFiles/faisshnsw.dir/build
 .PHONY : faisshnsw/fast
 
+#=============================================================================
+# Target rules for targets named iterator
+
+# Build rule for target.
+iterator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 iterator
+.PHONY : iterator
+
+# fast build rule for target.
+iterator/fast:
+	$(MAKE) $(MAKESILENT) -f iterator/CMakeFiles/iterator.dir/build.make iterator/CMakeFiles/iterator.dir/build
+.PHONY : iterator/fast
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -283,6 +296,7 @@ help:
 	@echo "... csi3"
 	@echo "... csia3"
 	@echo "... faisshnsw"
+	@echo "... iterator"
 	@echo "... rtree"
 	@echo "... s2r"
 	@echo "... scan"

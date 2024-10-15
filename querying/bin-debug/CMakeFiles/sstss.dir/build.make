@@ -101,6 +101,7 @@ sstss: csia3/libcsia3.a
 sstss: s2r/libs2r.a
 sstss: rtree/librtree.a
 sstss: baseline/libbaseline.a
+sstss: iterator/libiterator.a
 sstss: faisshnsw/libfaisshnsw.a
 sstss: /usr/local/lib/libfaiss.so
 sstss: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so

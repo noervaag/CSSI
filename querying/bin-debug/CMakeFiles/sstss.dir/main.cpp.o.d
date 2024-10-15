@@ -1052,4 +1052,35 @@ CMakeFiles/sstss.dir/main.cpp.o: \
  /usr/local/include/faiss/IndexFlatCodes.h \
  /usr/local/include/faiss/Index.h /usr/local/include/faiss/MetricType.h \
  /usr/local/include/faiss/impl/platform_macros.h \
- /usr/local/include/faiss/impl/DistanceComputer.h
+ /usr/local/include/faiss/impl/DistanceComputer.h \
+ /home/silviucm/MASTER/CSSI/querying/src/baseline/baseline.hpp \
+ /home/silviucm/MASTER/CSSI/querying/src/baseline/../algorithm/algorithm.hpp \
+ /usr/local/include/faiss/IndexHNSW.h /usr/local/include/faiss/IndexPQ.h \
+ /usr/local/include/faiss/impl/PolysemousTraining.h \
+ /usr/local/include/faiss/impl/ProductQuantizer.h \
+ /usr/local/include/faiss/Clustering.h \
+ /usr/local/include/faiss/impl/Quantizer.h \
+ /usr/local/include/faiss/utils/Heap.h \
+ /usr/local/include/faiss/utils/ordered_key_value.h \
+ /usr/local/include/faiss/impl/ProductQuantizer-inl.h \
+ /usr/local/include/faiss/IndexScalarQuantizer.h \
+ /usr/local/include/faiss/IndexIVF.h \
+ /usr/local/include/faiss/impl/IDSelector.h \
+ /usr/local/include/faiss/invlists/DirectMap.h \
+ /usr/local/include/faiss/invlists/InvertedLists.h \
+ /usr/local/include/faiss/impl/ScalarQuantizer.h \
+ /usr/local/include/faiss/impl/AuxIndexStructures.h \
+ /usr/include/c++/11/mutex /usr/include/c++/11/bits/std_mutex.h \
+ /usr/include/c++/11/bits/unique_lock.h \
+ /usr/local/include/faiss/impl/HNSW.h /usr/include/c++/11/queue \
+ /usr/include/c++/11/bits/stl_queue.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/omp.h \
+ /usr/local/include/faiss/impl/FaissAssert.h \
+ /usr/local/include/faiss/impl/FaissException.h \
+ /usr/local/include/faiss/utils/random.h /usr/include/c++/11/random \
+ /usr/include/c++/11/bits/random.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/opt_random.h \
+ /usr/include/c++/11/bits/random.tcc \
+ /usr/local/include/faiss/utils/utils.h \
+ /home/silviucm/MASTER/CSSI/querying/src/baseline/../iterator/iterator.hpp \
+ /home/silviucm/MASTER/CSSI/querying/src/baseline/../iterator/../baseline/baseline.hpp

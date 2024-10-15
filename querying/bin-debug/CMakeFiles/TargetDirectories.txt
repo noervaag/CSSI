@@ -28,3 +28,6 @@
 /home/silviucm/MASTER/CSSI/querying/bin-debug/faisshnsw/CMakeFiles/faisshnsw.dir
 /home/silviucm/MASTER/CSSI/querying/bin-debug/faisshnsw/CMakeFiles/edit_cache.dir
 /home/silviucm/MASTER/CSSI/querying/bin-debug/faisshnsw/CMakeFiles/rebuild_cache.dir
+/home/silviucm/MASTER/CSSI/querying/bin-debug/iterator/CMakeFiles/iterator.dir
+/home/silviucm/MASTER/CSSI/querying/bin-debug/iterator/CMakeFiles/edit_cache.dir
+/home/silviucm/MASTER/CSSI/querying/bin-debug/iterator/CMakeFiles/rebuild_cache.dir
