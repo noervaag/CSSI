@@ -8,25 +8,29 @@
 
 
 #include "../algorithm/algorithm.hpp"
+#include <faiss/IndexHNSW.h>
+#include "../iterator/iterator.hpp"
 
 namespace sstss
 {
     class baseline : public Algorithm
     {
     public:
-        baseline() {} /**< Empty constructor */
-        ~baseline() {} /**< Empty destructor */
+        ~baseline(); /**< Empty destructor */
 
-        baseline(Corpus const& corpus): Algorithm(corpus) {}
+        baseline(Corpus const& corpus);
 
         void query(uint32_t k, DocId const& q, double const& a, ResultVec &results,
            uint32_t &prunes, uint32_t &prunes2, uint32_t &numdist) override;
         void preprocess(uint32_t m) override;
     private:
-        std::vector<std::vector<line_t>> distclusters;
         double computeSpatialDistance(const DocId& id1, const DocId& id2);
         double computeSemanticDistance(const DocId& id1, const DocId& id2);
         double computeCombinedDistance(double ds, double dt, double lambda);
+        int d = corpus_.dim;
+	    int nb = corpus_.num_docs;
+        float* xb;
+        faiss::IndexHNSWFlat *index_;
     };
 
 } // namespace sstss

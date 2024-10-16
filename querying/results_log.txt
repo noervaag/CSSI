@@ -4,3 +4,6 @@ Workloaddir	Idxdir	Alg	AlgIdx	Query	Q index	k	a	m	Lm	PreT	QueryT	TotalT	NumDocs	
 ../../indexing/twitter_dataset	../../indexing/twitter_indexes	s2r	2	0	0	10	0.5	2	-0.1	127997	14070.9	142069	10000	0	0	6505	0	AGGR
 ../../indexing/twitter_dataset	../../indexing/twitter_indexes	csi3	5	0	0	10	0.5	2	-0.1	31432.7	18174.5	49607.6	10000	251	940	8808	0	AGGR
 ../../indexing/twitter_dataset	../../indexing/twitter_indexes	csia3	8	0	0	10	0.5	2	-0.1	31129	17490.2	48619.6	10000	683	908	8407	0	AGGR
+../../indexing/twitter_dataset	../../indexing/twitter_indexes	baseline	9	0	0	10	0.5	2	-0.1	189548	99.1	189647	10000	0	0	0	-1	AGGR
+../../indexing/twitter_dataset	../../indexing/twitter_indexes	baseline	9	0	0	10	0.5	2	-0.1	205673	175.5	205849	10000	0	0	90	-1	AGGR
+../../indexing/twitter_dataset	../../indexing/twitter_indexes	baseline	9	0	0	10	0.5	2	-0.1	211366	140.1	211506	10000	0	0	89	-1	AGGR

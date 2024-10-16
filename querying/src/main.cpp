@@ -21,6 +21,7 @@
 #include "csi3/csi3.hpp"
 #include "csia3/csia3.hpp"
 #include <faiss/IndexFlat.h>
+#include "baseline/baseline.hpp"
 
 
 
@@ -237,6 +238,13 @@ int main( int argc, char** argv ) {
                         stats.alg_index = 2;
 			exact = true;
                     }
+            else if (next_algorithm.compare("baseline") == 0)
+            {
+            alg = new baseline(corpus);
+            stats.algorithm = next_algorithm;
+            stats.alg_index = 9; // Assign a unique index
+            exact = false; // Set based on whether baseline is exact
+                }
 		    else if (next_algorithm.compare("csi3") == 0)
                     {
 			alg = new CSI3(corpus);

@@ -24,6 +24,7 @@ add_subdirectory(csi3)
 add_subdirectory(csia3)
 add_subdirectory(baseline)
 add_subdirectory(faisshnsw)
+add_subdirectory(iterator)
 
 # Include Faiss headers
 include_directories(/usr/local/include)  # Faiss headers installed here
@@ -32,7 +33,7 @@ include_directories(/usr/local/include)  # Faiss headers installed here
 find_package(OpenMP REQUIRED)
 if (OpenMP_CXX_FOUND)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} ${OpenMP_CXX_FLAGS}")
-endif()
+endif ()
 
 # Define the executable
 add_executable(sstss main.cpp)
@@ -48,6 +49,7 @@ target_link_libraries(sstss
         s2r
         rtree
         baseline
+        iterator
         faisshnsw
         /usr/local/lib/libfaiss.so  # Link against the installed Faiss shared library
         pthread
